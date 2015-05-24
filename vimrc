@@ -20,6 +20,8 @@ set backspace=2
 set mouse=a
 set hidden
 set nobackup
+set nowritebackup
+set noswapfile
 set ruler
 set showcmd
 set clipboard=unnamed
