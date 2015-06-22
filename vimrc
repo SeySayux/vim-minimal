@@ -55,7 +55,7 @@ nnoremap <C-l> :nohl<CR><C-l>
 " Show NFOs in correct codepage {{{2
 au BufNewFile,BufRead *.nfo edit ++enc=cp437
 
-" Delete whitespace in code {{{2
+" Delete trailing whitespace in code {{{2
 fun! <SID>StripTrailingWhitespaces()
     let l = line(".")
     let c = col(".")
