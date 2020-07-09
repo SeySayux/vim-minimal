@@ -68,7 +68,7 @@ autocmd FileType c,cpp,java,php,ruby,python,glsl,cmake autocmd BufWritePre <buff
 
 " Color scheme {{{1
 let g:force_greyComments=1
-set background=dark
+set background&
 colo force
 " }}}
 
